@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HT's Portfolio</title>
+  <link rel="icon" href="img/logo-2.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/library.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+</head>
+
+<body>
+  <!-- MENU -->
+  <nav class="banner bg-primary">
+    <div class="container">
+
+      <a href="index.html" class="logo"><img src="img/logo-2.png" alt=""></a>
+
+      <div class="menu">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="#rencentWork">RECENT WORK</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+
+
+    </div>
+    <div class="row">
+      <h1 class="title-banner">I'm <span class="job"></span></h1>
+    </div>    
+  </nav>
+  <div class="container">
+    <div class="row">
+
+    </div>
+  </div>
+  <!-- Button ontop -->
+  <button id="btntoggle" onclick="btnToggleClick()"><i class="bi bi-list"></i></button>
+  <button id="btn-ontop" onclick="btnOntopClick()" data-toggle="tooltip" data-placement="top" title="On top"><i class="bi bi-arrow-up-circle"></i></button>
+
+  <div class="menu2" id="menu-2">
+    <button class="closemenu" id="btnclose" onclick="btnCloseClick()"><i class="bi bi-x"></i></button>
+    <ul class="listmenu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#rencentWork">Recent Work</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- ABOUT ME -->
+  <div class="about-me">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 about-left">
+          <div class="meNeg">
+            <img src="img/meNeg1.png" alt="">
+          </div>
+          <div class="meHead">
+            <img src="img/meHead.png" alt="">
+          </div>
+        </div>
+        <div class="col-6 about-right text-center">
+          <h3 data-aos="zoom-in-left" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">Hey! My
+            Name Is Hong Tham</h3>
+          <p class="about-content1">I’ve always been someone who has both a creative and a logical side. When I discovered web design in
+            college, I realized it would be the perfect fit. I could use my creative side to design and my logical side
+            to code. As a bonus, being both designer and developer allows me to make sure no detail is lost in
+            translation.</p>
+          <div class="row about-icon text-center">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-behance"></i>
+            <i class="bi bi-google"></i>
+            <i class="bi bi-youtube"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bgDesign"><img src="img/bgDesign.png" alt=""></div>
+  </div>
+  <!-- RECENT WORK -->
+  <div id="rencentWork" class="recent-work bg-primary">
+    <!-- grid view -->
+    <h2 class="text-center" data-aos="zoom-in-left" data-aos="fade-down" data-aos-easing="linear"
+      data-aos-duration="1500"> MY DESIGN</h2>
+    <div class="gridview">
+
+      <div class="item1 item-style" data-aos="zoom-in-left" data-aos="fade-down" data-aos-easing="linear"
+        data-aos-duration="1500">
+        <img src="img/design (1).jpg" alt="">
+      </div>
+
+      <div class="item2 item-style" data-aos="zoom-in-left" data-aos="fade-down" data-aos-easing="linear"
+        data-aos-duration="1500">
+        <img src="img/design (2).jpg" alt="">
+      </div>
+
+      <div class="item3 item-style" data-aos="zoom-in-left" data-aos="fade-down" data-aos-easing="linear"
+        data-aos-duration="1500"><img src="img/design (3).jpg" alt=""></div>
+
+      <div class="item4 item-style" data-aos="zoom-in-left" data-aos="fade-down" data-aos-easing="linear"
+        data-aos-duration="1500"><img src="img/design (4).jpg" alt=""></div>
+
+      <div class="item5 item-style" data-aos="zoom-in-left" data-aos="fade-down" data-aos-easing="linear"
+        data-aos-duration="1500"><img src="img/design (5).jpg" alt=""></div>
+
+      <div class="item6 item-style" data-aos="zoom-in-left" data-aos="fade-down" data-aos-easing="linear"
+        data-aos-duration="1500"><img src="img/design (8).jpg" alt=""></div>
+
+      <div class="item7 item-style" data-aos="zoom-in-left" data-aos="fade-down" data-aos-easing="linear"
+        data-aos-duration="1500"><img src="img/design (6).jpg" alt=""></div>
+
+      <div class="item8 item-style" data-aos="zoom-in-left" data-aos="fade-down" data-aos-easing="linear"
+        data-aos-duration="1500"><img src="img/design (7).jpg" alt=""></div>
+
+    </div>
+    <div class="bgUI"><img src="img/bgUI.png" alt=""></div>
+  </div>
+  <!-- UX-UI -->
+  <div class="UX-UI">
+    <h2 class="text-center" data-aos="zoom-in-left" data-aos="fade-down" data-aos-easing="linear"
+      data-aos-duration="1500"> UX-UI</h2>
+
+    <div class="card-group">
+      <div class="card">
+        <img src="img/ux3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/ux1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/ux2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/ux4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/ux5.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+        </div>
+      </div>
+    </div>
+    <!-- Hobby -->
+    <div class="bgHobby"><img src="img/bgDesign.png" alt=""></div>
+  </div>
+
+  <div class="hobby bg-primary">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-6 hobby-left ">
+          <h2 data-aos="zoom-in-left" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">I <img
+              src="img/heart.png" class="pulse animate__animated animate__pulse animate__infinite" aria-hidden="true">
+            working with <br>small businesses</h2>
+          <div class="row">
+            <div class="col-6">
+              <p>I specialize in creating sites for individuals and small businesses. You shouldn’t have to settle for
+                cheap
+                solutions or generic templates. I provide custom designs at afforable prices. Frequently your website is
+                the
+                first impression your customers will get, so make sure it’s a good one.</p>
+            </div>
+            <div class="col-6 para2">
+              <p> Since, my time is split between a few
+                different things, I’m not able to take on every project I’d like to, but I'm always looking for fun
+                work. If
+                you think I’d be a good match <a
+                  href="mailto:deniselchandler@gmail.com?subject=DeniseChandler.com%20Contact%20Form">send me an
+                  email.</a></p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-6 hobby-right">
+          <div class="myHobby">
+            <img src="img/myHobby3.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bgfooter"><img src="img/bgUI.png" alt=""></div>
+  </div>
+  <!-- FOOTER -->
+  <div class="footer">
+    <div class="row heading">
+      <div class="contact">
+        <div class="logo-footer"><img src="img/logo-2.png" alt="" class="f-logo"></div>
+        <h3>CONTACT ME</h3>
+      </div>
+    </div>
+    <div class="row content">
+      <div class="detail">
+        <div class="row">
+          <i class="bi bi-telephone icon-contact"></i>
+          <p>098 123 4567</p>
+        </div>
+        <div class="row">
+          <i class="bi bi-envelope-open-heart icon-contact"></i>
+          <p>ht@contact.com</p>
+        </div>
+        <div class="row">
+          <i class="bi bi-facebook icon-contact"></i>
+          <p>facebook.co/ht</p>
+        </div>
+
+      </div>
+      <div class="contact">
+        <img src="img/contact.png" alt="">
+      </div>
+    </div>
+    <img src="img/bg-footer3.png" alt="">
+  </div>
+
+  <!-- Typed-github -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    var typed = new Typed('.job', {
+      strings: ["DESIGNER.", "WEBFLOW."],
+      typeSpeed: 50, loop: true
+    });
+  </script>
+  <!-- <script src="js/bootstrap.bundle.js"></script> -->
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/custom.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+
+  <!-- animation-github -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <!-- Tooltip -->
+  <script>
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })</script>
+</body>
+
+</html>
